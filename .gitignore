@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions / compiled CUDA ops
+*.so
+*.pyd
+build/
+*.egg-info/
+
+# Experiment outputs & data
+output/
+pretrain/
+snapshots/
+*.pth.tar
+*.pth
+wandb/
+logs/
+*.log
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
